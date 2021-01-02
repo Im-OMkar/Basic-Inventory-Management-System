@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Orders.css">
+</head>
+<body>
+    <center><h1>Orders</h1>
+    <h2>Search</h2>
+    <h2>Enter an Order</h2>
+    <div class="flex">
+    <form action="Orders.php" class="form1" method="POST">
+        Order ID :&nbsp&nbsp&nbsp&nbsp&nbsp<input type="number" name="OID1"><br><br>
+        Order Date :&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" name='orderDate1'><br><br>
+        <input type='submit' value='Search' name="search">
+    </form>
+    <form action="Orders.php" class="form2" method="POST">
+        Order ID :&nbsp&nbsp&nbsp&nbsp&nbsp<input type="number" name="OID2"><br><br>
+        Product ID :&nbsp&nbsp&nbsp<input type="number" name="PID"><br><br>
+        Quantity Purchased :&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="number" name='quantityPurchased'><br><br>
+        Order Date :&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" name='orderDate2'><br><br>
+        Date Shipped :&nbsp&nbsp&nbsp<input type="text" name='shippedDate'><br><br>
+        <input type='submit' value='Enter' name="submit">
+    </form>
+    </div>
+    </center>
+</body>
+</html>
